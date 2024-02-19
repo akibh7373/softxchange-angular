@@ -1,0 +1,649 @@
+<div class="video-wrapper">
+  <div class="video-container">
+    <div class="video-close-btn-area">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="16"
+        height="16"
+        fill="currentColor"
+        class="video-close-btn"
+        viewBox="0 0 16 16"
+      >
+        <path
+          d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293z"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+<section class="hero">
+  <div class="container">
+    <div class="hero-left">
+      <h1>
+        Empowering Financial <span class="br"></span> Innovation Through
+        <span class="br"></span> Expert Technology
+      </h1>
+      <p class="hero-subtitle">
+        Our relentless commitment to pioneering technology drives
+        <span class="br"></span> us to engineer cutting-edge platforms that
+        redefine the future <span class="br"></span> of financial markets.
+      </p>
+      <a routerLink="/contact" class="btn btn-primary">Get Started</a>
+      <a routerLink="#" class="btn btn-secondary overview-btn"
+        >Watch Overview</a
+      >
+    </div>
+    <div class="hero-right">
+      <div class="hero-right-top">
+        <span class="top">AAPL</span>
+        <h6>Apple Inc</h6>
+        <p class="hero-right-subtitle">
+          <span
+            ><img src="/assets/img/right-icon.svg" alt="right-icon-svg" />May 1,
+            2023</span
+          >
+          <span
+            ><img
+              src="/assets/img/reverse-icon.svg"
+              alt="reverse-icon-svg"
+            />Threshold: 10%</span
+          ><span
+            ><img src="/assets/img/user.svg" alt="user svg" />Composer</span
+          >
+        </p>
+      </div>
+      <div class="chart-hero"></div>
+      <div class="hero-right-bottom">
+        <div class="hero-right-wrapper">
+          <div class="hero-right-inner">
+            <p>Portfolio Value</p>
+            <span>&dollar;2652.00</span>
+          </div>
+          <div class="hero-right-inner">
+            <p>Today’s &dollar; Change</p>
+            <span class="amount">&plus;&dollar;2652.00</span>
+          </div>
+        </div>
+        <div class="hero-right-wrapper">
+          <div class="hero-right-inner">
+            <p>Cumulative Return</p>
+            <span>40.10&percnt;</span>
+          </div>
+          <div class="hero-right-inner">
+            <p>Today’s &percnt; Change</p>
+            <span class="amount">&plus;2652.00&percnt;</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<app-featured-in></app-featured-in>
+<section class="platform-features">
+  <div class="container">
+    <div class="heading-wrapper">
+      <h2>
+        Unveiling a Spectrum of Possibilities through Our Platform Features
+      </h2>
+      <p>
+        Crafted by traders, powered by capital markets experts. EP3's platform
+        and matching engine <span class="br"></span> empower exchanges to launch
+        softly and affordably.
+      </p>
+    </div>
+    <div class="card-wrapper">
+      <app-platform-features-card
+        [title]="'High-Speed Trading Engine'"
+        [content]="
+          'Experience lightning-fast trades and executions, ensuring you\'re always ahead of market movements.'
+        "
+      ></app-platform-features-card>
+      <app-platform-features-card
+        [title]="'Intelligent Matching Algorithm'"
+        [content]="
+          'Our sophisticated algorithm optimizes order matching, enhancing liquidity and minimizing slippage.'
+        "
+      ></app-platform-features-card>
+      <app-platform-features-card
+        [title]="'Scalability & Flexibility'"
+        [content]="
+          'Seamlessly scale your operations and adapt to changing market demands without compromising performance.'
+        "
+      ></app-platform-features-card>
+      <app-platform-features-card
+        [title]="'Robust Security Measures'"
+        [content]="
+          'Your assets are protected with state-of-the-art security protocols, multi-factor authentication, and encryption.'
+        "
+      ></app-platform-features-card>
+      <app-platform-features-card
+        [title]="'Real-Time Market Data'"
+        [content]="
+          'Access accurate and up-to-the-second market data for informed decision-making and strategy development.'
+        "
+      ></app-platform-features-card>
+      <app-platform-features-card
+        [title]="'Continuous Innovation'"
+        [content]="
+          'Benefit from ongoing updates and enhancements as we continually evolve our platform to meet your trading needs.'
+        "
+      ></app-platform-features-card>
+    </div>
+  </div>
+</section>
+<section class="performance">
+  <div class="container">
+    <div class="heading-wrapper">
+      <h2>Redefining Agility and Performance in Every Market Move</h2>
+      <p>
+        Our vision is to embolden both emerging and established exchanges,
+        guiding them towards <span class="br"></span> a future where speed and
+        efficiency are the cornerstones of success.
+      </p>
+    </div>
+    <div class="performance-wrapper-top">
+      <div class="performance-wrap performance-left">
+        <div class="performance-img-area">
+          <img src="/assets/img/performance-bg.jpg" alt="performance bg" />
+        </div>
+        <div class="overlay">
+          <h4>Performance Metrix</h4>
+          <table>
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>P/E Ratio</th>
+                <th>Dividend Yield</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Apple Inc</td>
+                <td>31.42</td>
+                <td>0.51%</td>
+              </tr>
+              <tr>
+                <td>NVIDIA Corp</td>
+                <td>119.40</td>
+                <td>0.03%</td>
+              </tr>
+              <tr>
+                <td>Tesla Inc</td>
+                <td>72.74</td>
+                <td>-</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="performance-wrap performance-right">
+        <h3>Diverse Markets and Versatile Trading</h3>
+        <p>
+          Enabling all market varieties and trading landscapes from emerging
+          marketplaces to established regulated exchanges.
+        </p>
+        <div class="li-wrap">
+          <span class="performance-li">
+            <img src="/assets/img/check.svg" alt="check svg" />
+            Designated Contract Markets (DCM)
+          </span>
+          <span class="performance-li">
+            <img src="/assets/img/check.svg" alt="check svg" /> Swap Execution
+            Facilities (SEF)
+          </span>
+          <span class="performance-li">
+            <img src="/assets/img/check.svg" alt="check svg" />
+            Alternative Trading Systems (ATS)
+          </span>
+          <span class="performance-li performance-li-last">
+            <img src="/assets/img/check.svg" alt="check svg" />
+            Request for Quote (RFQ) Markets
+          </span>
+        </div>
+        <a routerLink="#" class="btn btn-secondary">Learn more</a>
+      </div>
+    </div>
+    <div class="performance-wrapper-bottom">
+      <div class="performance-wrap performance-left">
+        <h3>Across the Asset Classes</h3>
+        <p>
+          At the heart of our mission lies a boundless vision to democratize
+          <span class="br"></span>
+          and diversify the world of trading.
+        </p>
+        <div class="li-wrap">
+          <span class="performance-li">
+            <img src="/assets/img/check.svg" alt="check svg" />
+            Futures, Options, Swaps
+          </span>
+          <span class="performance-li">
+            <img src="/assets/img/check.svg" alt="check svg" />
+            Environment Commodities (ESG)
+          </span>
+          <span class="performance-li">
+            <img src="/assets/img/check.svg" alt="check svg" />
+            Predictions and Events</span
+          >
+          <span class="performance-li performance-li-last">
+            <img src="/assets/img/check.svg" alt="check svg" />
+            Equities, Fixed Income, Rates
+          </span>
+        </div>
+        <a routerLink="#" class="btn btn-secondary">Learn more</a>
+      </div>
+      <div class="performance-wrap performance-right">
+        <div class="performance-img-area">
+          <img src="/assets/img/performance-bg2.jpg" alt="performance bg" />
+        </div>
+        <div class="overlay">
+          <h4>Asset Classes</h4>
+          <div class="overlay-card">
+            <div class="overlay-single">
+              <img src="/assets/img/overlay-icon.svg" alt="overlay icon" />
+              <h5>cash</h5>
+            </div>
+            <span>1st priority</span>
+          </div>
+          <div class="overlay-card">
+            <div class="overlay-single">
+              <img src="/assets/img/overlay-icon2.svg" alt="overlay icon" />
+              <h5>Equities</h5>
+            </div>
+            <span>2nd priority</span>
+          </div>
+          <div class="overlay-card">
+            <div class="overlay-single">
+              <img src="/assets/img/overlay-icon3.svg" alt="overlay icon" />
+              <h5>Fixed Income</h5>
+            </div>
+            <span>3rd priority</span>
+          </div>
+          <div class="overlay-card">
+            <div class="overlay-single">
+              <img src="/assets/img/overlay-icon4.svg" alt="overlay icon" />
+              <h5>Alternative</h5>
+            </div>
+            <span>4th priority</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="revolution">
+  <div class="container">
+    <div class="heading-wrapper">
+      <h2>Revolutionizing Success for Organizations of Every Scale</h2>
+      <p>
+        Discover how we empowers exchanges to chart their course, compete on a
+        global scale, <span class="br"></span> and redefine the landscape of
+        trading.
+      </p>
+    </div>
+    <div class="card-wrapper">
+      <div class="card-single">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="48"
+          height="48"
+          viewBox="0 0 48 48"
+          fill="none"
+        >
+          <g clip-path="url(#clip0_509_1374)">
+            <path
+              d="M43 46H5C3.67441 45.9984 2.40356 45.4711 1.46622 44.5338C0.528882 43.5964 0.00158786 42.3256 0 41L0 7C0 4.244 2.242 2 5 2H43C45.758 2 48 4.244 48 7V41C48 43.756 45.758 46 43 46ZM5 4C3.346 4 2 5.346 2 7V41C2 42.654 3.346 44 5 44H43C44.654 44 46 42.654 46 41V7C46 5.346 44.654 4 43 4H5Z"
+              fill="#010E28"
+            />
+            <path
+              d="M47 12H1C0.734784 12 0.48043 11.8946 0.292893 11.7071C0.105357 11.5196 0 11.2652 0 11C0 10.7348 0.105357 10.4804 0.292893 10.2929C0.48043 10.1054 0.734784 10 1 10H47C47.2652 10 47.5196 10.1054 47.7071 10.2929C47.8946 10.4804 48 10.7348 48 11C48 11.2652 47.8946 11.5196 47.7071 11.7071C47.5196 11.8946 47.2652 12 47 12ZM9 24C7.346 24 6 22.654 6 21C6 19.346 7.346 18 9 18C10.654 18 12 19.346 12 21C12 22.654 10.654 24 9 24ZM9 20C8.73425 20.0005 8.4796 20.1066 8.29206 20.2949C8.10453 20.4832 7.99947 20.7383 8 21.004C8.00053 21.2697 8.10661 21.5244 8.29489 21.7119C8.48318 21.8995 8.73825 22.0045 9.004 22.004C9.26975 22.0035 9.5244 21.8974 9.71194 21.7091C9.89947 21.5208 10.0045 21.2657 10.004 21C10.0035 20.7343 9.89739 20.4796 9.70911 20.2921C9.52082 20.1045 9.26575 19.9995 9 20ZM24 26C22.346 26 21 24.654 21 23C21 21.346 22.346 20 24 20C25.654 20 27 21.346 27 23C27 24.654 25.654 26 24 26ZM24 22C23.7343 22.0005 23.4796 22.1066 23.2921 22.2949C23.1045 22.4832 22.9995 22.7383 23 23.004C23.0005 23.2697 23.1066 23.5244 23.2949 23.7119C23.4832 23.8995 23.7383 24.0045 24.004 24.004C24.1356 24.0037 24.2658 23.9776 24.3873 23.927C24.5088 23.8764 24.6191 23.8023 24.7119 23.7091C24.8048 23.6159 24.8784 23.5053 24.9285 23.3836C24.9786 23.2619 25.0043 23.1316 25.004 23C25.0037 22.8684 24.9776 22.7382 24.927 22.6167C24.8764 22.4952 24.8023 22.3849 24.7091 22.2921C24.6159 22.1992 24.5053 22.1256 24.3836 22.0755C24.2619 22.0254 24.1316 21.9997 24 22ZM39 22C37.346 22 36 20.654 36 19C36 17.346 37.346 16 39 16C40.654 16 42 17.346 42 19C42 20.654 40.654 22 39 22ZM39 18C38.8684 18.0003 38.7382 18.0264 38.6167 18.077C38.4952 18.1276 38.3849 18.2017 38.2921 18.2949C38.1992 18.3881 38.1256 18.4987 38.0755 18.6204C38.0254 18.7421 37.9997 18.8724 38 19.004C38.0003 19.1356 38.0264 19.2658 38.077 19.3873C38.1276 19.5088 38.2017 19.6191 38.2949 19.7119C38.3881 19.8048 38.4987 19.8784 38.6204 19.9285C38.7421 19.9786 38.8724 20.0043 39.004 20.004C39.2697 20.0035 39.5244 19.8974 39.7119 19.7091C39.8995 19.5208 40.0045 19.2657 40.004 19C40.0035 18.7343 39.8974 18.4796 39.7091 18.2921C39.5208 18.1045 39.2657 17.9995 39 18ZM24 39.5C23.7348 39.5 23.4804 39.3946 23.2929 39.2071C23.1054 39.0196 23 38.7652 23 38.5V31C23 30.7348 23.1054 30.4804 23.2929 30.2929C23.4804 30.1054 23.7348 30 24 30C24.2652 30 24.5196 30.1054 24.7071 30.2929C24.8946 30.4804 25 30.7348 25 31V38.5C25 38.7652 24.8946 39.0196 24.7071 39.2071C24.5196 39.3946 24.2652 39.5 24 39.5Z"
+              fill="#010E28"
+            />
+            <path
+              d="M39 40H9C8.73478 40 8.48043 39.8946 8.29289 39.7071C8.10536 39.5196 8 39.2652 8 39V29C8 28.7348 8.10536 28.4804 8.29289 28.2929C8.48043 28.1054 8.73478 28 9 28C9.26522 28 9.51957 28.1054 9.70711 28.2929C9.89464 28.4804 10 28.7348 10 29V38H38V27C38 26.7348 38.1054 26.4804 38.2929 26.2929C38.4804 26.1054 38.7348 26 39 26C39.2652 26 39.5196 26.1054 39.7071 26.2929C39.8946 26.4804 40 26.7348 40 27V39C40 39.2652 39.8946 39.5196 39.7071 39.7071C39.5196 39.8946 39.2652 40 39 40ZM25.66 21.512L36.822 18.558L37.334 20.492L26.174 23.444L25.66 21.512ZM10.848 22.252L11.114 20.268L22.154 21.748L21.886 23.732L10.848 22.252Z"
+              fill="#010E28"
+            />
+          </g>
+          <defs>
+            <clipPath id="clip0_509_1374">
+              <rect width="48" height="48" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+        <h4>Thriving Marketplaces</h4>
+        <p>
+          Transform your disruptive marketplace vision into reality, rapidly and
+          efficiently.
+        </p>
+        <a routerLink="#" class="btn-tertiary"
+          >Learn more
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+          >
+            <path
+              d="M12.6502 11.975L7.7002 7.025L9.3752 5.35L16.0002 11.975L9.3752 18.6L7.7002 16.925L12.6502 11.975Z"
+              fill="#0553F0"
+            /></svg
+        ></a>
+      </div>
+      <div class="card-single">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="48"
+          height="48"
+          viewBox="0 0 48 48"
+          fill="none"
+        >
+          <g clip-path="url(#clip0_509_1387)">
+            <path
+              d="M15 30C6.728 30 0 23.272 0 15C0 6.728 6.728 0 15 0C23.272 0 30 6.728 30 15C30 15.202 29.998 15.378 29.972 15.582C29.9577 15.7131 29.9173 15.8399 29.8532 15.9551C29.7891 16.0704 29.7026 16.1716 29.5988 16.2528C29.495 16.3341 29.376 16.3938 29.2487 16.4283C29.1215 16.4629 28.9887 16.4716 28.858 16.454C28.7276 16.4382 28.6016 16.3968 28.4871 16.3322C28.3727 16.2676 28.2722 16.1811 28.1912 16.0777C28.1102 15.9742 28.0504 15.8558 28.0152 15.7293C27.98 15.6027 27.9701 15.4704 27.986 15.34C28.002 15.22 28 15.118 28 15C28 7.832 22.168 2 15 2C7.832 2 2 7.832 2 15C1.998 22.196 7.882 28.02 15.082 28C15.168 28 15.25 27.998 15.34 27.988C15.4704 27.9721 15.6027 27.9821 15.7292 28.0173C15.8558 28.0525 15.9742 28.1123 16.0776 28.1933C16.181 28.2743 16.2675 28.3748 16.3321 28.4892C16.3967 28.6036 16.4381 28.7296 16.454 28.86C16.4699 28.9904 16.4599 29.1227 16.4247 29.2492C16.3895 29.3758 16.3297 29.4942 16.2487 29.5976C16.1677 29.701 16.0672 29.7875 15.9528 29.8521C15.8384 29.9167 15.7124 29.9581 15.582 29.974C15.3887 29.9946 15.1944 30.0033 15 30Z"
+              fill="#010E28"
+            />
+            <path
+              d="M16 22H11C10.7348 22 10.4804 21.8946 10.2929 21.7071C10.1054 21.5196 10 21.2652 10 21C10 20.7348 10.1054 20.4804 10.2929 20.2929C10.4804 20.1054 10.7348 20 11 20H16C16.515 19.977 17.0012 19.7562 17.3574 19.3836C17.7137 19.0111 17.9125 18.5155 17.9125 18C17.9125 17.4845 17.7137 16.9889 17.3574 16.6164C17.0012 16.2438 16.515 16.023 16 16H14C11.794 16 10 14.206 10 12C10 9.794 11.794 8 14 8H19C19.2652 8 19.5196 8.10536 19.7071 8.29289C19.8946 8.48043 20 8.73478 20 9C20 9.26522 19.8946 9.51957 19.7071 9.70711C19.5196 9.89464 19.2652 10 19 10H14C13.485 10.023 12.9988 10.2438 12.6426 10.6164C12.2863 10.9889 12.0875 11.4845 12.0875 12C12.0875 12.5155 12.2863 13.0111 12.6426 13.3836C12.9988 13.7562 13.485 13.977 14 14H16C18.206 14 20 15.794 20 18C20 20.206 18.206 22 16 22Z"
+              fill="#010E28"
+            />
+            <path
+              d="M15 25C14.7348 25 14.4804 24.8946 14.2929 24.7071C14.1054 24.5196 14 24.2652 14 24V21C14 20.7348 14.1054 20.4804 14.2929 20.2929C14.4804 20.1054 14.7348 20 15 20C15.2652 20 15.5196 20.1054 15.7071 20.2929C15.8946 20.4804 16 20.7348 16 21V24C16 24.2652 15.8946 24.5196 15.7071 24.7071C15.5196 24.8946 15.2652 25 15 25ZM15 10C14.7348 10 14.4804 9.89464 14.2929 9.70711C14.1054 9.51957 14 9.26522 14 9V6C14 5.73478 14.1054 5.48043 14.2929 5.29289C14.4804 5.10536 14.7348 5 15 5C15.2652 5 15.5196 5.10536 15.7071 5.29289C15.8946 5.48043 16 5.73478 16 6V9C16 9.26522 15.8946 9.51957 15.7071 9.70711C15.5196 9.89464 15.2652 10 15 10ZM33 48C24.728 48 18 41.272 18 33C18 24.728 24.728 18 33 18C41.272 18 48 24.728 48 33C48 41.272 41.272 48 33 48ZM33 20C25.832 20 20 25.832 20 33C20 40.168 25.832 46 33 46C40.168 46 46 40.168 46 33C46 25.832 40.168 20 33 20Z"
+              fill="#010E28"
+            />
+            <path
+              d="M31 42C30.7348 42 30.4804 41.8946 30.2929 41.7071C30.1054 41.5196 30 41.2652 30 41V29C30 26.242 32.242 24 35 24C37.758 24 40 26.242 40 29C40 29.2652 39.8946 29.5196 39.7071 29.7071C39.5196 29.8946 39.2652 30 39 30C38.7348 30 38.4804 29.8946 38.2929 29.7071C38.1054 29.5196 38 29.2652 38 29C38 27.346 36.654 26 35 26C33.346 26 32 27.346 32 29V41C32 41.2652 31.8946 41.5196 31.7071 41.7071C31.5196 41.8946 31.2652 42 31 42Z"
+              fill="#010E28"
+            />
+            <path
+              d="M37 42H27C26.7348 42 26.4804 41.8946 26.2929 41.7071C26.1054 41.5196 26 41.2652 26 41C26 40.7348 26.1054 40.4804 26.2929 40.2929C26.4804 40.1054 26.7348 40 27 40H37C37.2652 40 37.5196 40.1054 37.7071 40.2929C37.8946 40.4804 38 40.7348 38 41C38 41.2652 37.8946 41.5196 37.7071 41.7071C37.5196 41.8946 37.2652 42 37 42ZM35 34H27C26.7348 34 26.4804 33.8946 26.2929 33.7071C26.1054 33.5196 26 33.2652 26 33C26 32.7348 26.1054 32.4804 26.2929 32.2929C26.4804 32.1054 26.7348 32 27 32H35C35.2652 32 35.5196 32.1054 35.7071 32.2929C35.8946 32.4804 36 32.7348 36 33C36 33.2652 35.8946 33.5196 35.7071 33.7071C35.5196 33.8946 35.2652 34 35 34ZM47 14H39C38.7348 14 38.4804 13.8946 38.2929 13.7071C38.1054 13.5196 38 13.2652 38 13C38 12.7348 38.1054 12.4804 38.2929 12.2929C38.4804 12.1054 38.7348 12 39 12H46V5C46 4.73478 46.1054 4.48043 46.2929 4.29289C46.4804 4.10536 46.7348 4 47 4C47.2652 4 47.5196 4.10536 47.7071 4.29289C47.8946 4.48043 48 4.73478 48 5V13C48 13.2652 47.8946 13.5196 47.7071 13.7071C47.5196 13.8946 47.2652 14 47 14Z"
+              fill="#010E28"
+            />
+            <path
+              d="M47 14C46.8029 13.9999 46.6103 13.9416 46.4462 13.8323C46.2822 13.7231 46.1541 13.5678 46.078 13.386C46.03 13.272 41.19 2 31 2C30.7348 2 30.4804 1.89464 30.2929 1.70711C30.1054 1.51957 30 1.26522 30 1C30 0.734784 30.1054 0.48043 30.2929 0.292893C30.4804 0.105357 30.7348 0 31 0C42.534 0 47.708 12.1 47.924 12.616C47.9872 12.768 48.0119 12.9333 47.9959 13.0971C47.98 13.261 47.9238 13.4183 47.8324 13.5553C47.7409 13.6922 47.6171 13.8044 47.4719 13.882C47.3267 13.9596 47.1646 14.0001 47 14ZM1 44C0.734784 44 0.48043 43.8946 0.292893 43.7071C0.105357 43.5196 0 43.2652 0 43V35C0 34.7348 0.105357 34.4804 0.292893 34.2929C0.48043 34.1054 0.734784 34 1 34H9C9.26522 34 9.51957 34.1054 9.70711 34.2929C9.89464 34.4804 10 34.7348 10 35C10 35.2652 9.89464 35.5196 9.70711 35.7071C9.51957 35.8946 9.26522 36 9 36H2V43C2 43.2652 1.89464 43.5196 1.70711 43.7071C1.51957 43.8946 1.26522 44 1 44Z"
+              fill="#010E28"
+            />
+            <path
+              d="M17.0003 48.0001C5.46626 48.0001 0.292263 35.9001 0.0762633 35.3841C-0.0179565 35.1407 -0.0133445 34.8702 0.089115 34.6303C0.191574 34.3903 0.383766 34.1999 0.624671 34.0997C0.865576 33.9994 1.13611 33.9973 1.37854 34.0938C1.62097 34.1903 1.8161 34.3777 1.92226 34.6161C1.97026 34.7281 6.81026 46.0001 17.0003 46.0001C17.2655 46.0001 17.5198 46.1054 17.7074 46.2929C17.8949 46.4805 18.0003 46.7348 18.0003 47.0001C18.0003 47.2653 17.8949 47.5196 17.7074 47.7072C17.5198 47.8947 17.2655 48.0001 17.0003 48.0001Z"
+              fill="#010E28"
+            />
+          </g>
+          <defs>
+            <clipPath id="clip0_509_1387">
+              <rect width="48" height="48" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+        <h4>Emerging Exchanges</h4>
+        <p>
+          Upgrade technology or fuel expansion into non-traditional markets with
+          modern solutions.
+        </p>
+        <a routerLink="#" class="btn-tertiary"
+          >Learn more<svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+          >
+            <path
+              d="M12.6502 11.975L7.7002 7.025L9.3752 5.35L16.0002 11.975L9.3752 18.6L7.7002 16.925L12.6502 11.975Z"
+              fill="#0553F0"
+            /></svg
+        ></a>
+      </div>
+      <div class="card-single">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="48"
+          height="48"
+          viewBox="0 0 48 48"
+          fill="none"
+        >
+          <g clip-path="url(#clip0_509_1404)">
+            <path
+              d="M47 48H1C0.734784 48 0.48043 47.8946 0.292893 47.7071C0.105357 47.5196 0 47.2652 0 47C0 46.7348 0.105357 46.4804 0.292893 46.2929C0.48043 46.1054 0.734784 46 1 46H47C47.2652 46 47.5196 46.1054 47.7071 46.2929C47.8946 46.4804 48 46.7348 48 47C48 47.2652 47.8946 47.5196 47.7071 47.7071C47.5196 47.8946 47.2652 48 47 48Z"
+              fill="#010E28"
+            />
+            <path
+              d="M13 48H3C2.73478 48 2.48043 47.8947 2.29289 47.7071C2.10536 47.5196 2 47.2652 2 47V36C2 34.898 2.898 34 4 34H12C13.102 34 14 34.898 14 36V47C14 47.2652 13.8946 47.5196 13.7071 47.7071C13.5196 47.8947 13.2652 48 13 48ZM4 46H12V36H4V46ZM29 48H19C18.7348 48 18.4804 47.8947 18.2929 47.7071C18.1054 47.5196 18 47.2652 18 47V24C18 22.898 18.898 22 20 22H28C29.102 22 30 22.898 30 24V47C30 47.2652 29.8946 47.5196 29.7071 47.7071C29.5196 47.8947 29.2652 48 29 48ZM20 46H28V24H20V46ZM45 48H35C34.7348 48 34.4804 47.8947 34.2929 47.7071C34.1054 47.5196 34 47.2652 34 47V12C34 10.898 34.898 10 36 10H44C45.102 10 46 10.898 46 12V47C46 47.2652 45.8946 47.5196 45.7071 47.7071C45.5196 47.8947 45.2652 48 45 48ZM36 46H44V12H36V46ZM5 22C4.80237 22 4.60918 21.9414 4.44483 21.8316C4.28049 21.7218 4.15234 21.5658 4.07659 21.3833C4.00084 21.2008 3.98087 20.9999 4.01921 20.806C4.05755 20.6121 4.15247 20.434 4.292 20.294L22.292 2.294C22.4806 2.11184 22.7332 2.01105 22.9954 2.01333C23.2576 2.01561 23.5084 2.12078 23.6938 2.30618C23.8792 2.49159 23.9844 2.7424 23.9867 3.0046C23.989 3.2668 23.8882 3.5194 23.706 3.708L5.706 21.708C5.61333 21.8007 5.50326 21.8743 5.38211 21.9244C5.26096 21.9745 5.13111 22.0002 5 22Z"
+              fill="#010E28"
+            />
+            <path
+              d="M23 12C22.7348 12 22.4804 11.8946 22.2929 11.7071C22.1054 11.5196 22 11.2652 22 11V4H15C14.7348 4 14.4804 3.89464 14.2929 3.70711C14.1054 3.51957 14 3.26522 14 3C14 2.73478 14.1054 2.48043 14.2929 2.29289C14.4804 2.10536 14.7348 2 15 2H23C23.2652 2 23.5196 2.10536 23.7071 2.29289C23.8946 2.48043 24 2.73478 24 3V11C24 11.2652 23.8946 11.5196 23.7071 11.7071C23.5196 11.8946 23.2652 12 23 12Z"
+              fill="#010E28"
+            />
+          </g>
+          <defs>
+            <clipPath id="clip0_509_1404">
+              <rect width="48" height="48" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+        <h4>Burgeoning Market Frontiers</h4>
+        <p>
+          Quickly establish global exchanges with SoftXchange's reliable
+          multi-asset platform for emerging markets.
+        </p>
+        <a routerLink="#" class="btn-tertiary"
+          >Learn more<svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+          >
+            <path
+              d="M12.6502 11.975L7.7002 7.025L9.3752 5.35L16.0002 11.975L9.3752 18.6L7.7002 16.925L12.6502 11.975Z"
+              fill="#0553F0"
+            /></svg
+        ></a>
+      </div>
+      <div class="card-single">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="48"
+          height="48"
+          viewBox="0 0 48 48"
+          fill="none"
+        >
+          <g clip-path="url(#clip0_509_1417)">
+            <path
+              d="M24 40C15.178 40 8 32.822 8 24C8 15.178 15.178 8 24 8C32.822 8 40 15.178 40 24C40 32.822 32.822 40 24 40ZM24 10C16.28 10 10 16.28 10 24C10 31.718 16.28 38 24 38C31.72 38 38 31.718 38 24C38 16.28 31.72 10 24 10Z"
+              fill="#010E28"
+            />
+            <path
+              d="M25 31H20C19.7348 31 19.4804 30.8946 19.2929 30.7071C19.1054 30.5196 19 30.2652 19 30C19 29.7348 19.1054 29.4804 19.2929 29.2929C19.4804 29.1054 19.7348 29 20 29H25C25.515 28.977 26.0012 28.7562 26.3574 28.3836C26.7137 28.0111 26.9125 27.5155 26.9125 27C26.9125 26.4845 26.7137 25.9889 26.3574 25.6164C26.0012 25.2438 25.515 25.023 25 25H23C20.794 25 19 23.206 19 21C19 18.794 20.794 17 23 17H28C28.2652 17 28.5196 17.1054 28.7071 17.2929C28.8946 17.4804 29 17.7348 29 18C29 18.2652 28.8946 18.5196 28.7071 18.7071C28.5196 18.8946 28.2652 19 28 19H23C21.898 19 21 19.898 21 21C21 22.102 21.898 23 23 23H25C27.206 23 29 24.794 29 27C29 29.206 27.206 31 25 31Z"
+              fill="#010E28"
+            />
+            <path
+              d="M24 34C23.7348 34 23.4804 33.8946 23.2929 33.7071C23.1054 33.5196 23 33.2652 23 33V30C23 29.7348 23.1054 29.4804 23.2929 29.2929C23.4804 29.1054 23.7348 29 24 29C24.2652 29 24.5196 29.1054 24.7071 29.2929C24.8946 29.4804 25 29.7348 25 30V33C25 33.2652 24.8946 33.5196 24.7071 33.7071C24.5196 33.8946 24.2652 34 24 34ZM24 19C23.7348 19 23.4804 18.8946 23.2929 18.7071C23.1054 18.5196 23 18.2652 23 18V15C23 14.7348 23.1054 14.4804 23.2929 14.2929C23.4804 14.1054 23.7348 14 24 14C24.2652 14 24.5196 14.1054 24.7071 14.2929C24.8946 14.4804 25 14.7348 25 15V18C25 18.2652 24.8946 18.5196 24.7071 18.7071C24.5196 18.8946 24.2652 19 24 19Z"
+              fill="#010E28"
+            />
+            <path
+              d="M24 48C10.766 48 0 37.234 0 24C0 10.766 10.766 0 24 0C37.234 0 48 10.766 48 24C48 37.234 37.234 48 24 48ZM24 2C11.87 2 2 11.87 2 24C2 36.13 11.87 46 24 46C36.13 46 46 36.13 46 24C46 11.87 36.13 2 24 2Z"
+              fill="#010E28"
+            />
+            <path
+              d="M9 25H1C0.734784 25 0.48043 24.8946 0.292893 24.7071C0.105357 24.5196 0 24.2652 0 24C0 23.7348 0.105357 23.4804 0.292893 23.2929C0.48043 23.1054 0.734784 23 1 23H9C9.26522 23 9.51957 23.1054 9.70711 23.2929C9.89464 23.4804 10 23.7348 10 24C10 24.2652 9.89464 24.5196 9.70711 24.7071C9.51957 24.8946 9.26522 25 9 25ZM47 25H39C38.7348 25 38.4804 24.8946 38.2929 24.7071C38.1054 24.5196 38 24.2652 38 24C38 23.7348 38.1054 23.4804 38.2929 23.2929C38.4804 23.1054 38.7348 23 39 23H47C47.2652 23 47.5196 23.1054 47.7071 23.2929C47.8946 23.4804 48 23.7348 48 24C48 24.2652 47.8946 24.5196 47.7071 24.7071C47.5196 24.8946 47.2652 25 47 25ZM13.84 14H3.8C3.53478 14 3.28043 13.8946 3.09289 13.7071C2.90536 13.5196 2.8 13.2652 2.8 13C2.8 12.7348 2.90536 12.4804 3.09289 12.2929C3.28043 12.1054 3.53478 12 3.8 12H13.84C14.1052 12 14.3596 12.1054 14.5471 12.2929C14.7346 12.4804 14.84 12.7348 14.84 13C14.84 13.2652 14.7346 13.5196 14.5471 13.7071C14.3596 13.8946 14.1052 14 13.84 14ZM44.2 14H34.16C33.8948 14 33.6404 13.8946 33.4529 13.7071C33.2654 13.5196 33.16 13.2652 33.16 13C33.16 12.7348 33.2654 12.4804 33.4529 12.2929C33.6404 12.1054 33.8948 12 34.16 12H44.2C44.4652 12 44.7196 12.1054 44.9071 12.2929C45.0946 12.4804 45.2 12.7348 45.2 13C45.2 13.2652 45.0946 13.5196 44.9071 13.7071C44.7196 13.8946 44.4652 14 44.2 14ZM13.84 36H3.8C3.53478 36 3.28043 35.8946 3.09289 35.7071C2.90536 35.5196 2.8 35.2652 2.8 35C2.8 34.7348 2.90536 34.4804 3.09289 34.2929C3.28043 34.1054 3.53478 34 3.8 34H13.84C14.1052 34 14.3596 34.1054 14.5471 34.2929C14.7346 34.4804 14.84 34.7348 14.84 35C14.84 35.2652 14.7346 35.5196 14.5471 35.7071C14.3596 35.8946 14.1052 36 13.84 36ZM44.2 36H34.16C33.8948 36 33.6404 35.8946 33.4529 35.7071C33.2654 35.5196 33.16 35.2652 33.16 35C33.16 34.7348 33.2654 34.4804 33.4529 34.2929C33.6404 34.1054 33.8948 34 34.16 34H44.2C44.4652 34 44.7196 34.1054 44.9071 34.2929C45.0946 34.4804 45.2 34.7348 45.2 35C45.2 35.2652 45.0946 35.5196 44.9071 35.7071C44.7196 35.8946 44.4652 36 44.2 36Z"
+              fill="#010E28"
+            />
+            <path
+              d="M24.0003 48C23.8194 47.9997 23.6418 47.9507 23.4863 47.858C18.6205 44.9401 14.773 40.5926 12.4683 35.408C12.3244 35.1359 12.2001 34.8539 12.0963 34.564C12.0439 34.4407 12.0168 34.308 12.0166 34.174C12.0164 34.0399 12.0432 33.9072 12.0954 33.7837C12.1475 33.6602 12.224 33.5485 12.3202 33.4551C12.4164 33.3617 12.5304 33.2887 12.6554 33.2403C12.7804 33.1918 12.9139 33.1691 13.0479 33.1732C13.1819 33.1774 13.3136 33.2085 13.4354 33.2647C13.5571 33.3208 13.6663 33.4009 13.7565 33.5C13.8467 33.5992 13.916 33.7155 13.9603 33.842C14.0443 34.076 14.1443 34.308 14.2603 34.526C16.4008 39.3614 19.9819 43.4181 24.5143 46.142C24.7021 46.2544 24.8478 46.4253 24.9291 46.6284C25.0104 46.8316 25.0228 47.0558 24.9645 47.2667C24.9061 47.4776 24.7803 47.6635 24.6061 47.796C24.4319 47.9284 24.2191 48.0001 24.0003 48ZM13.0003 14.86C12.832 14.8601 12.6664 14.8177 12.5189 14.7367C12.3714 14.6557 12.2466 14.5388 12.1563 14.3968C12.0659 14.2548 12.0129 14.0923 12.0021 13.9244C11.9912 13.7564 12.023 13.5885 12.0943 13.436C12.2083 13.124 12.3443 12.816 12.5003 12.526C14.8042 7.36813 18.6399 3.04436 23.4863 0.142046C23.599 0.071577 23.7245 0.0242508 23.8556 0.00283119C23.9867 -0.0185884 24.1207 -0.013672 24.2499 0.0172933C24.3791 0.0482587 24.5008 0.104652 24.608 0.183181C24.7151 0.261709 24.8055 0.360799 24.874 0.474662C24.9424 0.588526 24.9874 0.714881 25.0065 0.84635C25.0255 0.977818 25.0182 1.11176 24.9849 1.24037C24.9516 1.36897 24.893 1.48965 24.8126 1.59536C24.7321 1.70107 24.6314 1.78969 24.5163 1.85605C20.002 4.56436 16.432 8.59808 14.2923 13.408C14.1639 13.6498 14.0529 13.9004 13.9603 14.158C13.9463 14.198 13.9283 14.236 13.9103 14.274C13.8313 14.4491 13.7033 14.5975 13.5419 14.7014C13.3804 14.8054 13.1924 14.8605 13.0003 14.86Z"
+              fill="#010E28"
+            />
+            <path
+              d="M24.0004 48C23.7814 48.0005 23.5683 47.9291 23.3938 47.7968C23.2193 47.6645 23.0931 47.4786 23.0345 47.2676C22.9759 47.0566 22.9882 46.8322 23.0695 46.6288C23.1507 46.4255 23.2965 46.2544 23.4844 46.142C27.9988 43.4353 31.5685 39.4019 33.7064 34.592C33.8544 34.31 33.9544 34.078 34.0384 33.844C34.054 33.8016 34.072 33.7602 34.0924 33.72C34.144 33.5951 34.2204 33.482 34.317 33.3874C34.4135 33.2929 34.5283 33.2189 34.6542 33.1699C34.7802 33.121 34.9147 33.098 35.0498 33.1025C35.1848 33.107 35.3176 33.1388 35.44 33.1961C35.5624 33.2533 35.672 33.3347 35.762 33.4354C35.8521 33.5362 35.9208 33.6541 35.964 33.7822C36.0073 33.9102 36.0241 34.0457 36.0135 34.1804C36.0029 34.3151 35.9651 34.4463 35.9024 34.566C35.7903 34.8782 35.6552 35.1817 35.4984 35.474C33.1957 40.6326 29.3597 44.9567 24.5124 47.858C24.3579 47.9513 24.1808 48.0004 24.0004 48ZM35.0004 14.86C34.8081 14.8603 34.6199 14.8052 34.4581 14.7013C34.2964 14.5973 34.168 14.449 34.0884 14.274C34.0704 14.236 34.0524 14.198 34.0384 14.158C33.9553 13.9229 33.855 13.6943 33.7384 13.474C31.5986 8.63814 28.0174 4.58125 23.4844 1.85796C23.2622 1.71892 23.1035 1.49823 23.0424 1.24336C22.9813 0.988487 23.0227 0.71982 23.1577 0.495173C23.2927 0.270525 23.5105 0.107856 23.7643 0.0421709C24.018 -0.023514 24.2874 0.0130364 24.5144 0.143956C29.3798 3.06238 33.2272 7.40981 35.5324 12.594C35.6564 12.82 35.7904 13.128 35.9044 13.438C35.9752 13.5901 36.0066 13.7577 35.9957 13.9252C35.9847 14.0927 35.9318 14.2548 35.8417 14.3965C35.7517 14.5381 35.6274 14.6548 35.4804 14.7358C35.3333 14.8168 35.1683 14.8595 35.0004 14.86Z"
+              fill="#010E28"
+            />
+          </g>
+          <defs>
+            <clipPath id="clip0_509_1417">
+              <rect width="48" height="48" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+        <h4>Worldwide Trading Firms</h4>
+        <p>
+          Elevate tech for order flow and seize emerging opportunities with
+          EP3's adaptability.
+        </p>
+        <a routerLink="#" class="btn-tertiary"
+          >Learn more<svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+          >
+            <path
+              d="M12.6502 11.975L7.7002 7.025L9.3752 5.35L16.0002 11.975L9.3752 18.6L7.7002 16.925L12.6502 11.975Z"
+              fill="#0553F0"
+            /></svg
+        ></a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="services">
+  <div class="container">
+    <div class="heading-wrapper">
+      <h2>Elevate Your Strategy with Our Expert Complementary Services</h2>
+      <p>
+        We envision empowering your aspirations, orchestrating a comprehensive
+        transformation that fuels your success in a dynamic market.
+      </p>
+    </div>
+    <div class="services-wrapper">
+      <div class="services-inner">
+        <div class="services-img-area">
+          <img src="/assets/img/services-img.jpg" alt="services img" />
+          <div class="overlay overlay-inside">
+            <h4>Financials Graph</h4>
+            <div class="chart-line"></div>
+          </div>
+        </div>
+        <div class="services-content">
+          <div class="overlay overlay-outside">
+            <h4>Financials Graph</h4>
+            <div class="chart-line2"></div>
+          </div>
+          <h3>Excellence Through Professional Services</h3>
+          <p>
+            Unlock exceptional potential elevate your EP3 platform with tailored
+            enhancements. Our custom Software development services drive
+            operational and business excellence.
+          </p>
+          <a routerLink="/professional-services" class="btn btn-secondary"
+            >Learn more</a
+          >
+        </div>
+      </div>
+      <div class="services-inner">
+        <div class="services-img-area">
+          <img src="/assets/img/services-img2.jpg" alt="services img" />
+          <div class="overlay overlay-inside">
+            <h4>Total Changes</h4>
+            <div class="chart-bar2"></div>
+          </div>
+        </div>
+        <div class="services-content">
+          <div class="overlay overlay-outside">
+            <h4>Total Changes</h4>
+            <div class="chart-bar"></div>
+          </div>
+          <h3>Growth Through Dedicated Support Services</h3>
+          <p>
+            Our team of experts is dedicated to ensuring your platform's
+            seamless performance, offering soft resolutions and innovative
+            solutions to any challenges that may arise.
+          </p>
+          <a routerLink="/support-services" class="btn btn-secondary"
+            >Learn more</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="stories">
+  <div class="container">
+    <div class="heading-wrapper">
+      <h2>Real-World Success Stories Unveiling the Impact of Our Solutions</h2>
+      <p>
+        Discover the tangible outcomes of our solutions through real-world
+        success stories<span class="br"></span> that showcase our impact in
+        action.
+      </p>
+    </div>
+    <div class="stories-wrapper">
+      <div class="stories-img">
+        <img src="/assets/img/success-stories.jpg" alt="success stories" />
+      </div>
+      <div class="stories-content">
+        <h3>
+          Shaping the Financial Landscape: Unveiling the American Financial
+          Exchange
+        </h3>
+        <p>
+          This case study unveils a narrative of collaboration, innovation, and
+          the power of a strategic partnership that has empowered American
+          Financial Exchange to navigate challenges, drive efficiency, and
+          achieve remarkable outcomes in the financial landscape.
+        </p>
+        <a routerLink="/case-studies-single" class="btn-tertiary"
+          >Learn more
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+          >
+            <path
+              d="M12.6502 11.975L7.7002 7.02498L9.3752 5.34998L16.0002 11.975L9.3752 18.6L7.7002 16.925L12.6502 11.975Z"
+              fill="#0553F0"
+            />
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div class="stories-wrapper stories-wrapper-bottom">
+      <div class="stories-img">
+        <img src="/assets/img/success-stories2.jpg" alt="success stories" />
+      </div>
+      <div class="stories-content">
+        <h3>
+          Navigating Success: Unveiling the Triumph of APAC Bourse's On-Prem
+          Exchange Platform
+        </h3>
+        <p>
+          Discover how APAC Bourse leveraged cutting-edge innovations to
+          navigate challenges, capitalize on opportunities, and drive
+          unprecedented growth in the exchange landscape. The power of
+          partnership, innovation, and the on achieving remarkable outcomes.
+        </p>
+        <a routerLink="/case-studies-single" class="btn-tertiary"
+          >Learn more
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+          >
+            <path
+              d="M12.6502 11.975L7.7002 7.02498L9.3752 5.34998L16.0002 11.975L9.3752 18.6L7.7002 16.925L12.6502 11.975Z"
+              fill="#0553F0"
+            /></svg
+        ></a>
+      </div>
+    </div>
+  </div>
+</section>
+<app-contact
+  [title]="'SoftXchange Simplifying Exchange Endeavors'"
+  [content]="
+    'Explore how we empowers exchange operators across diverse markets and assets.'
+  "
+></app-contact>
