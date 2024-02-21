@@ -3,7 +3,7 @@
     <a routerLink="/"
       ><img src="./assets/img/logo.png" class="brand-logo" alt="brand-logo"
     /></a>
-    <nav>
+    <nav [ngClass]="isNavOpen ? 'active' : ''">
       <ul class="nav-ul">
         <li class="nav-li">
           <a routerLink="#" class="nav-link"
@@ -148,6 +148,7 @@
       </ul>
       <a routerLink="/contact" class="btn btn-primary">contact us</a>
       <svg
+        (click)="closeNavMenu()"
         xmlns="http://www.w3.org/2000/svg"
         width="16"
         height="16"
@@ -161,6 +162,7 @@
       </svg>
     </nav>
     <svg
+      (click)="openNavMenu()"
       xmlns="http://www.w3.org/2000/svg"
       width="20"
       height="20"

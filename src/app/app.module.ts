@@ -9,9 +9,11 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './pages/home/home.component';
 import { FeaturedInComponent } from './components/featured-in/featured-in.component';
+import { PlatformFeaturesCardComponent } from './components/platform-features-card/platform-features-card.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { FeaturesComponent } from './pages/features/features.component';
+import { JobCardComponent } from './components/job-card/job-card.component';
 import { ApiComponent } from './pages/api/api.component';
 import { MarketSurveillanceComponent } from './pages/market-surveillance/market-surveillance.component';
 import { ProfessionalServicesComponent } from './pages/professional-services/professional-services.component';
@@ -24,9 +26,8 @@ import { AboutComponent } from './pages/about/about.component';
 import { CareerComponent } from './pages/career/career.component';
 import { TermsOfServicesComponent } from './pages/terms-of-services/terms-of-services.component';
 import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.component';
-import { PlatformFeaturesCardComponent } from './components/platform-features-card/platform-features-card.component';
-import { JobCardComponent } from './components/job-card/job-card.component';
 import { LeadershipComponent } from './pages/leadership/leadership.component';
+import { NotFoundComponent } from './pages/not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -53,6 +54,7 @@ import { LeadershipComponent } from './pages/leadership/leadership.component';
     JobCardComponent,
     LeadershipComponent,
     ContactComponent,
+    NotFoundComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [provideClientHydration()],

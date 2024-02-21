@@ -16,6 +16,7 @@ import { CareerComponent } from './pages/career/career.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { TermsOfServicesComponent } from './pages/terms-of-services/terms-of-services.component';
 import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.component';
+import { NotFoundComponent } from './pages/not-found/not-found.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -34,6 +35,7 @@ const routes: Routes = [
   { path: 'contact', component: ContactComponent },
   { path: 'terms-of-services', component: TermsOfServicesComponent },
   { path: 'privacy-policy', component: PrivacyPolicyComponent },
+  { path: '**', component: NotFoundComponent },
 ];
 
 @NgModule({
