@@ -3,10 +3,10 @@
     <a routerLink="/"
       ><img src="./assets/img/logo.png" class="brand-logo" alt="brand-logo"
     /></a>
-    <nav [ngClass]="isNavOpen ? 'active' : ''">
+    <nav [ngClass]="isActive ? 'active' : ''">
       <ul class="nav-ul">
         <li class="nav-li">
-          <a routerLink="#" class="nav-link"
+          <a href="#" class="nav-link" (click)="openDropDownNav()"
             >solutions
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -22,14 +22,25 @@
               />
             </svg>
           </a>
-          <div class="dropdown-content">
+          <div
+            class="dropdown-content"
+            [ngClass]="!isdropDownContent ? '' : 'dropdown-content-active'"
+          >
             <ul class="dropdown-ul">
               <li>
-                <a routerLink="/features">Features &amp; Functionality</a>
+                <a (click)="closeNavMenuNavigate('/features')"
+                  >Features &amp; Functionality</a
+                >
               </li>
-              <li><a routerLink="/api">APIs &amp; Integrations</a></li>
               <li>
-                <a routerLink="/market-surveillance">Market Surveillance</a>
+                <a (click)="closeNavMenuNavigate('/api')"
+                  >APIs &amp; Integrations</a
+                >
+              </li>
+              <li>
+                <a (click)="closeNavMenuNavigate('/market-surveillance')"
+                  >Market Surveillance</a
+                >
               </li>
             </ul>
           </div>
@@ -46,7 +57,7 @@
           </div>
         </li>
         <li class="nav-li">
-          <a routerLink="#" class="nav-link2"
+          <a href="#" class="nav-link2" (click)="openDropDownNavTwo()"
             >services
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -62,13 +73,22 @@
               />
             </svg>
           </a>
-          <div class="dropdown-content dropdown-content2">
+          <div
+            class="dropdown-content dropdown-content2"
+            [ngClass]="
+              !isdropDownContentTwo ? '' : 'dropdown-content-active-two'
+            "
+          >
             <ul class="dropdown-ul">
               <li>
-                <a routerLink="/professional-services">Professional Services</a>
+                <a (click)="closeNavMenuNavigate('/professional-services')"
+                  >Professional Services</a
+                >
               </li>
               <li>
-                <a routerLink="/support-services">Support Services</a>
+                <a (click)="closeNavMenuNavigate('/support-services')"
+                  >Support Services</a
+                >
               </li>
             </ul>
           </div>
@@ -84,7 +104,7 @@
           </div>
         </li>
         <li class="nav-li">
-          <a routerLink="#" class="nav-link3"
+          <a href="#" class="nav-link3" (click)="openDropDownNavThree()"
             >resources
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -100,10 +120,23 @@
               />
             </svg>
           </a>
-          <div class="dropdown-content dropdown-content3">
+          <div
+            class="dropdown-content dropdown-content3"
+            [ngClass]="
+              !isdropDownContentThree ? '' : 'dropdown-content-active-three'
+            "
+          >
             <ul class="dropdown-ul">
-              <li><a routerLink="/news">News &amp; Insights</a></li>
-              <li><a routerLink="/case-studies">Case Studies</a></li>
+              <li>
+                <a (click)="closeNavMenuNavigate('/news')"
+                  >News &amp; Insights</a
+                >
+              </li>
+              <li>
+                <a (click)="closeNavMenuNavigate('/case-studies')"
+                  >Case Studies</a
+                >
+              </li>
             </ul>
           </div>
           <div class="dropdown-nav">
@@ -114,7 +147,7 @@
           </div>
         </li>
         <li class="nav-li">
-          <a routerLink="#" class="nav-link4"
+          <a href="#" class="nav-link4" (click)="openDropDownNavFour()"
             >company
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -130,11 +163,18 @@
               />
             </svg>
           </a>
-          <div class="dropdown-content dropdown-content4">
+          <div
+            class="dropdown-content dropdown-content4"
+            [ngClass]="
+              !isdropDownContentFour ? '' : 'dropdown-content-active-four'
+            "
+          >
             <ul class="dropdown-ul">
-              <li><a routerLink="/about">About Us</a></li>
-              <li><a routerLink="/leadership">Leadership</a></li>
-              <li><a routerLink="/career">Careers</a></li>
+              <li><a (click)="closeNavMenuNavigate('/about')">About Us</a></li>
+              <li>
+                <a (click)="closeNavMenuNavigate('/leadership')">Leadership</a>
+              </li>
+              <li><a (click)="closeNavMenuNavigate('/career')">Careers</a></li>
             </ul>
           </div>
           <div class="dropdown-nav">

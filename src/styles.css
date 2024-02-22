@@ -1695,7 +1695,10 @@ iframe {
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
   }
-  .dropdown-content-active {
+  .dropdown-content-active,
+  .dropdown-content-active-two,
+  .dropdown-content-active-three,
+  .dropdown-content-active-four {
     display: block;
   }
   header .nav-ul {
